@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui;
+}
+.timer {
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.numero {
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 30px;
+}
+
+.botoesTimer {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+margin-top: 20px;
+
+}
+
+.botoesTimer button {
+
+height: 50px;
+width: 50px;
+font-size: 20px;
+border-radius: 50%;
+background-color: transparent;
+border: none;
+color: blue;
+}
+
+.botoesTimer button:hover {
+background-color: rgba(0, 0, 0, 0.2);
+}
+
